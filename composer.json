@@ -1,0 +1,39 @@
+{
+    "name": "mabrahamde/domainvalidation",
+    "type": "library",
+    "description": "This library validates that somebody controls a domain names using different strategies like DNS record, HTML tags or HTTP resource",
+    "keywords": ["domain","validation","dns","dv","lib"],
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "Martin Abraham",
+            "email": "dev@mabraham.de",
+            "homepage": "https://mabraham.de",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MabrahamDe\\DomainValidation\\":"src/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "spatie/dns": "^1.4",
+        "kriswallsmith/buzz": "^1.0",
+        "nyholm/psr7": "^1.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8",
+        "squizlabs/php_codesniffer": "*",
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "jakub-onderka/php-parallel-lint": "^1.0"
+    },
+    "scripts": {
+        "test": [
+            "parallel-lint . --exclude vendor",
+            "phpunit",
+            "phpcs src"
+        ]
+    }
+}
