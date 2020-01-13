@@ -1,5 +1,5 @@
 {
-    "name": "mabrahamde/domainvalidation",
+    "name": "mabrahamde/domain-ownership-validation",
     "type": "library",
     "description": "This library validates that somebody controls a domain names using different strategies like DNS record, HTML tags or HTTP resource",
     "keywords": ["domain","validation","dns","dv","lib"],
