@@ -3,7 +3,7 @@
     "type": "library",
     "description": "This library validates that somebody controls a domain names using different strategies like DNS record, HTML tags or HTTP resource",
     "keywords": ["domain","validation","dns","dv","lib"],
-    "license": "LGPL",
+    "license": "MIT",
     "authors": [
         {
             "name": "Martin Abraham",
